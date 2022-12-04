@@ -15,6 +15,7 @@
 	padding: 0;
 	padding-left:50px ;
 	padding-right:30px ;
+	box-shadow: 5px 5px 5px rgba(33, 37, 34, 0.486);
 	
 
 	
@@ -22,7 +23,7 @@
 
 .box-color2 {
 	color: #ffffff;
-	background: #7B8D7D;
+	background: #E6DCB0;
 	text-align:left;
 	margin: 0;
 	display: inline;
@@ -167,6 +168,7 @@ you work on and the intended audience */
 	padding-bottom:0px;
 	color: #50412f;
 	line-height: 50px;
+	box-shadow: 5px 5px 5px rgba(33, 37, 34, 0.486);
 	
 }
 #background1 {
@@ -196,8 +198,8 @@ you work on and the intended audience */
 }
 
 #products {
-	margin-top: 100px;
-	margin-bottom: 100px;
+	padding-top: 100px;
+	padding-bottom: 100px;
 	
 	
 }
@@ -232,6 +234,7 @@ you work on and the intended audience */
 	font-family: american typewriter;
 	font-size: 20px;
 	letter-spacing: 5px;
+	box-shadow: 5px 5px 5px rgba(33, 37, 34, 0.486);
 
 }
 
@@ -260,6 +263,7 @@ you work on and the intended audience */
 	padding-left:10px ;
 	padding-right:10px ;
 	background-color: #BBC6A9;
+	
 }
 
 #open-maps {
@@ -306,8 +310,9 @@ you work on and the intended audience */
 	line-height: 42px;
 }
 #contact {
-	margin-top: 100px;
-	margin-bottom: 100px;
+
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
 
 #contact-text {
@@ -317,6 +322,7 @@ you work on and the intended audience */
 	border-radius: 50px;
 	font-size: 30px;
 	font-family: american typewriter;
+	box-shadow: 5px 5px 5px rgba(33, 37, 34, 0.486);
 }
 
 #contact-form {
@@ -324,7 +330,67 @@ you work on and the intended audience */
 	/* Remove as content will dictate height */
 	height: 700px;
 	border-radius: 50px;
+	box-shadow: 5px 5px 5px rgba(33, 37, 34, 0.486);
 }
+
+#contact-form form {
+	display: flex;
+	flex-direction:column;
+}
+
+#contact-form textarea {
+	height: 100px;
+	padding: 0px;
+    border: none;
+    border-radius:  40px;
+    margin-bottom: 0px;
+	font-family: american typewriter;
+    font-size: 28px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 30px;
+	color: #7B8D7D;
+	width: 575px;
+	box-shadow: 5px 5px 5px rgba(33, 37, 34, 0.486);
+}
+
+#contact form textarea[name="msg"] {
+	padding-left: 40px;
+	padding-right: 150px;
+	padding-top: 20px;
+}
+#contact-form input {
+    height:80px;
+	padding: 0px;
+    border: none;
+    border-radius:  40px;
+    margin-bottom: 0px;
+    font-family: american typewriter;
+	font-size: 28px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 24px;
+	color: #7B8D7D;
+	background-color: #ffffff;
+	width:575px;
+	box-shadow: 5px 5px 5px rgba(33, 37, 34, 0.486);
+}
+
+#contact-form input[type="text"] {
+	padding-left: 40px;
+	padding-right: 150px;
+}
+#contact form input[type="submit"]:hover {
+    background-color: #7B8D7D;
+    border-radius: 60px;
+	color: #ffffff;
+}
+#contact form input[type="submit"] {
+	width: 250px;
+	background-color: #b39a7c;
+	color: #ffffff;
+}
+
 
 /*Common page elements  */
 
