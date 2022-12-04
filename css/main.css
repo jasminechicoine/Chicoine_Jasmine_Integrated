@@ -80,7 +80,6 @@ you work on and the intended audience */
 }
 
 #header-con {
-	position: sticky;
     top: 0px;
     height: 150px;
     
@@ -93,7 +92,7 @@ you work on and the intended audience */
 #logo {
 	
     grid-column: 1/4;
-	margin-left: -125px;
+	margin-left: -100px;
 	
 }
 	
@@ -102,8 +101,8 @@ you work on and the intended audience */
 #main-nav {
 	grid-column: 4/11;
     
-    margin-top: 60px;
-    margin-left: -390px;
+    margin-top: 17px;
+    margin-left: -250px;
 
 	/* Remove as content will dictate height */
 }
@@ -156,6 +155,8 @@ you work on and the intended audience */
 	grid-column: 1/8;
 	/* Remove as content will dictate height */
 	height: 582px;
+	background-color: #EFEFEF;
+	border-radius: 40px;
 	
 }
 
@@ -163,11 +164,13 @@ you work on and the intended audience */
 	grid-column: 8/-1;
 	/* Remove as content will dictate height */
 	height: 582px;
+	border-radius: 40px;
 }
 
 #products {
 	margin-top: 100px;
 	margin-bottom: 100px;
+	
 }
 
 #products h2 {
@@ -195,10 +198,12 @@ you work on and the intended audience */
 
 .product-box {
 	background-color: #ddd;
+	border-radius: 40px;
+
 }
 
 #about-con {
-	background-color: #ddd;
+	background-color: #7B8D7D;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
@@ -211,12 +216,14 @@ you work on and the intended audience */
 	grid-column: 1/8;
 	/* Remove as content will dictate height */
 	height: 700px;
+	border-radius: 40px;
 }
 
 #about-image {
 	grid-column: 8/-1;
 	/* Remove as content will dictate height */
 	height: 700px;
+	border-radius: 40px;
 }
 
 #contact {
@@ -228,18 +235,20 @@ you work on and the intended audience */
 	grid-column: 1/8;
 	/* Remove as content will dictate height */
 	height: 700px;
+	border-radius: 50px;
 }
 
 #contact-form {
 	grid-column: 8/-1;
 	/* Remove as content will dictate height */
 	height: 700px;
+	border-radius: 50px;
 }
 
 /*Common page elements  */
 
 #footer-con {
-	background-color: #aaaaaa;
+	background-color: #7B8D7D;
 	padding-top: 50px;
 	padding-bottom: 20px;
 }
@@ -248,6 +257,7 @@ you work on and the intended audience */
 	grid-column: 1/3;
 	/* Remove as content will dictate height */
 	height: 80px;
+	
 }
 
 #footer-nav {
