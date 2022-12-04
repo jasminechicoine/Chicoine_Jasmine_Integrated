@@ -12,23 +12,13 @@
 	text-align:left;
 	margin: 0;
 	display: inline;
+	padding: 0;
 	
 }
 
-.box-color2 a {
-	padding-top: 20px;
-}
 
-.box-color2 {
-	color: #fff;
-	background: #E6DCB0;;
-	text-align: center;
-	margin-left: 80px;
-	border-radius: 40px;
-	padding:0;
-	grid-column: 12/-2;
 
-}
+
 
 
 /*basic reset*/
@@ -38,6 +28,7 @@
 div,p,body,header,footer,section,article,nav { 
 	margin: 0; 
 	padding: 0; 
+	overflow-x: hidden;
 }	
 
 img { 
@@ -76,6 +67,7 @@ you work on and the intended audience */
 #container {
 	margin: 0 auto;
 	width: 1920px;
+	
 }
 
 /* this is our grid based off of our XD file */
@@ -91,7 +83,7 @@ you work on and the intended audience */
 	position: sticky;
     top: 0px;
     height: 150px;
-    border-bottom: solid 1px #c3c3c3;
+    
 	background-color: #BBC6A9; 
 	
 	
@@ -151,14 +143,20 @@ you work on and the intended audience */
 
 /* Specific to index page desktop  */
 
+#background1 {
+	background-color: #DFE3D8;
+
+}
 #hero {
 	margin-top: 100px;
+	color:#DFE3D8;
 }
 
 #hero-text {
 	grid-column: 1/8;
 	/* Remove as content will dictate height */
 	height: 582px;
+	
 }
 
 #hero-image {
