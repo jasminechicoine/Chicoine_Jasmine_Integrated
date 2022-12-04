@@ -7,15 +7,32 @@
 }
 
 .box-color {
-	color: #fff;
+	color: #ffffffce;
 	background: #BBC6A9;;
 	text-align:left;
 	margin: 0;
 	display: inline;
 	padding: 0;
+	padding-left:50px ;
+	padding-right:30px ;
+	
+
 	
 }
 
+.box-color2 {
+	color: #ffffff;
+	background: #7B8D7D;
+	text-align:left;
+	margin: 0;
+	display: inline;
+	padding: 0;
+	padding-left:50px ;
+	padding-right:30px ;
+	
+
+	
+}
 
 
 
@@ -77,6 +94,7 @@ you work on and the intended audience */
 	grid-column-gap: 16px;
 	padding-left: 140px;
 	padding-right: 140px;
+	
 }
 
 #header-con {
@@ -141,14 +159,23 @@ you work on and the intended audience */
 }
 
 /* Specific to index page desktop  */
-
+.hero-p {
+	font-size: 25px;
+	font-family: american typewriter;
+	padding: 50px;
+	padding-top: 0px;
+	padding-bottom:0px;
+	color: #50412f;
+	line-height: 50px;
+	
+}
 #background1 {
 	background-color: #DFE3D8;
 
 }
 #hero {
 	margin-top: 100px;
-	color:#DFE3D8;
+	
 }
 
 #hero-text {
@@ -160,6 +187,7 @@ you work on and the intended audience */
 	
 }
 
+
 #hero-image {
 	grid-column: 8/-1;
 	/* Remove as content will dictate height */
@@ -170,6 +198,7 @@ you work on and the intended audience */
 #products {
 	margin-top: 100px;
 	margin-bottom: 100px;
+	
 	
 }
 
@@ -197,11 +226,45 @@ you work on and the intended audience */
 }
 
 .product-box {
-	background-color: #ddd;
+	background-color: #EFEFEF;
 	border-radius: 40px;
+	color: #50412f;
+	font-family: american typewriter;
+	font-size: 20px;
+	letter-spacing: 5px;
 
 }
 
+.products-title {
+	font-size: 50px;
+	color: #50412f;
+	font-family: american typewriter;
+	letter-spacing: 5px;
+}
+
+#TO-title {
+	letter-spacing: 5px;
+	color:#535f55;
+}
+#TO-title2 {
+	letter-spacing: 3px;
+}
+.view-items {
+	padding-left: 135px;
+	padding-top: 50px;
+}
+
+.about-text {
+	font-size: 35px;
+	font-family: american typewriter;
+	padding-left:10px ;
+	padding-right:10px ;
+	background-color: #BBC6A9;
+}
+
+#open-maps {
+	padding-top:130px;
+}
 #about-con {
 	background-color: #7B8D7D;
 	padding-top: 10px;
@@ -210,6 +273,10 @@ you work on and the intended audience */
 
 #about-title {
 	text-align: center;
+	font-size: 50px;
+	font-family: american typewriter;
+	color:#50412f;
+	letter-spacing: 5px;
 }
 
 #about-text {
@@ -226,20 +293,34 @@ you work on and the intended audience */
 	border-radius: 40px;
 }
 
+#sign-up {
+	color:#535f55;
+	letter-spacing: 2px;
+}
+
+#updates {
+	color:#7B8D7D;
+	letter-spacing: 2px;
+}
+#updates-list {
+	line-height: 42px;
+}
 #contact {
 	margin-top: 100px;
 	margin-bottom: 100px;
 }
 
 #contact-text {
-	grid-column: 1/8;
+	grid-column:1/6;
 	/* Remove as content will dictate height */
 	height: 700px;
 	border-radius: 50px;
+	font-size: 30px;
+	font-family: american typewriter;
 }
 
 #contact-form {
-	grid-column: 8/-1;
+	grid-column: 6/-1;
 	/* Remove as content will dictate height */
 	height: 700px;
 	border-radius: 50px;
