@@ -488,12 +488,18 @@ you work on and the intended audience */
 
 /* gallery page */
 
+#gallery-main {
+	background-color: #535f55;
+}
 #gallery-hero-con {
 	background-color: #aaaaaa;
 	background: url("https://via.placeholder.com/1920x580");
 	height: 580px;
 }
 
+#new-title {
+	font-size: 50px;
+}
 #gallery-text {
 	grid-column: 1/9;
 	/* Remove as content will dictate height */
@@ -510,7 +516,7 @@ you work on and the intended audience */
 }
 
 .dot {
-	background-color: #dddddd;
+	background-color: #EFEFEF;
 	height: 30px;
 	width: 30px;
 	border-radius: 50%;
@@ -523,9 +529,10 @@ you work on and the intended audience */
   }
 
 .gallery-box {
-	background-color: #ddd;
+	background-color: #EFEFEF;
 	grid-column: span 4 / span 4;
 	/* Remove as content will dictate height */
 	height: 507px;
 	margin-bottom: 20px;
+	border-radius: 40px;
 }
