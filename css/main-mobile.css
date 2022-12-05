@@ -361,7 +361,10 @@ margin-bottom: 10px;
  
 
 /* gallery page */
-
+#gallery {
+	background-color: #535f55;
+	
+}
 #hero-gallery-con {
 	background-color: #aaaaaa;
 	background: url("https://via.placeholder.com/428x458");
@@ -373,6 +376,7 @@ margin-bottom: 10px;
 	/* Remove as content will dictate height */
 	height: 350px;
 	margin-top: 20px;
+	
 }
 
 #gallery-controls {
@@ -404,6 +408,8 @@ margin-bottom: 10px;
 	/* Remove as content will dictate height */
 	height: 507px;
 	margin-bottom: 20px;
+	background-color: #EFEFEF;
+	
 }
 
 #footer-newsletter2 {
