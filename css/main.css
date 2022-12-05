@@ -383,12 +383,12 @@ you work on and the intended audience */
 	padding-left: 40px;
 	padding-right: 150px;
 }
-#contact form input[type="submit"]:hover {
+#contact-form input[type="submit"]:hover {
     background-color: #7B8D7D;
     border-radius: 60px;
 	color: #ffffff;
 }
-#contact form input[type="submit"] {
+#contact-form input[type="submit"] {
 	width: 250px;
 	background-color: #b39a7c;
 	color: #ffffff;
