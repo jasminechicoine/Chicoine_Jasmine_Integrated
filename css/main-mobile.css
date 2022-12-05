@@ -198,7 +198,7 @@ you work on and the intended audience, we may go as low as 320px */
 	display: block;
 	margin: 20px auto 0 auto;
 	margin-bottom: 40px;
-	
+	border-radius: 40px;
 	
 
 }
@@ -416,6 +416,11 @@ margin-bottom: 10px;
 .cart {
 	margin-left: 60px;
 }
+
+.gal-img {
+	border-top-right-radius: 40px;
+	border-top-left-radius: 40px;
+}
 .gallery-box {
 	grid-column: 1/-1;
 	background-color: #EFEFEF;
@@ -423,12 +428,13 @@ margin-bottom: 10px;
 	height: 507px;
 	margin-bottom: 20px;
 	color: #50412f;
-	
+	border-radius: 40px;
 	
 }
 
 .gallery-box p {
 	padding-left: 135px;
+	
 }
 
 #footer-newsletter2 {

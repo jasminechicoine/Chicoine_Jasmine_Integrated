@@ -8,13 +8,13 @@
 <!-- students must convert divs to semantic tags -->
 <body>
 	<div id="container">
-        
         <header id="header-con">
             <div id="main-header" class="grid-con">
-                <div id="logo">
+                <section id="logo">
+                    <h2 class="hidden">logo</h2>
                     <img src="images/bcv_logo.png" alt="black coffee vintage logo" width="145" height="145">
-                </div>
-
+                </section>
+            
                 <nav id="main-nav">
                     <h2 class="hidden">Main Navigation</h2>
                     <ul>
@@ -28,9 +28,9 @@
                         <li><a href="#">Donate</a></li>
                     </ul>
                 </nav>
-                
                 <a class="cart-icon" id="cart-icon-top" href="#">
-                    <img src="images/cart_icon.png" alt="cart icon button" width="260" height="75"></a>
+                <img src="images/cart_icon.png" alt="cart icon button" width="260" height="75"></a>
+                
             </div>
         </header> 
 
@@ -147,12 +147,11 @@
                         <input name="email" type="text" required placeholder="Email e.g. example@mail.com">
                         <textarea name="msg" placeholder="Leave Message Here!"></textarea>
                         <input id="footer-submit" name="submit" type="submit" value="Send">
-                        
                     </form>
                 </section>
+            
             </div>
-        </footer>
-
+      </footer>  
     </div><!--end container-->  
 </body>
 </html>
