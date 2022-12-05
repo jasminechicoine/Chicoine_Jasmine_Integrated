@@ -9,22 +9,36 @@
 <body>
 	<div id="container">
         
-        <div id="header-con">
+        <header id="header-con">
             <div id="main-header" class="grid-con">
-                <div id="header-box1" class="box-color">
+                <div id="logo">
+                    <img src="images/bcv_logo.png" alt="black coffee vintage logo" width="145" height="145">
                 </div>
-                <div id="main-nav" class="box-color">
-                </div>
-                <div id="header-box2" class="box-color">
-                </div>
+
+                <nav id="main-nav">
+                    <h2 class="hidden">Main Navigation</h2>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="gallery.html">New Arrivals</a></li>
+                        <li><a href="#">Hats</a></li>
+                        <li><a href="#">Sweaters</a></li>
+                        <li><a href="#">Shirts</a></li>
+                        <li><a href="#">Bottoms</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Donate</a></li>
+                    </ul>
+                </nav>
+                
+                <a class="cart-icon" id="cart-icon-top" href="#">
+                    <img src="images/cart_icon.png" alt="cart icon button" width="260" height="75"></a>
             </div>
-        </div> 
+        </header> 
 
         <main>
 
             <div id="gallery-hero-con">
                 <div class="grid-con">
-                    <div id="gallery-text" class="box-color">
+                    <div id="gallery-text" class="">
                     </div>
                     <div id="gallery-controls">
                         <span class="dot"></span>
@@ -84,20 +98,33 @@
             </div>         
         </main>
 
-        <div id="footer-con">
+        <footer id="footer-con">
             <div class="grid-con" id="footer">
-                <div id="footer-logo" class="box-color">
-                </div>
-                <div id="footer-nav" class="box-color">
-                </div>
-                <div id="footer-newsletter1" class="box-color">
-                </div>
-                <div id="footer-newsletter2" class="box-color">
-                </div>
-                <div id="footer-social" class="box-color">
-                </div>
+                    <img class="footer-logo" src="images/bcv_logo.png" alt="Black Coffee Vintage Logo" width="145" height="145">
+                <nav id="footer-nav">
+                    <h2 class="hidden">Main Footer Navigation</h2>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="gallery.html">New Arrivals</a></li>
+                        <li><a href="#">Hats</a></li>
+                        <li><a href="#">Sweaters</a></li>
+                        <li><a href="#">Shirts</a></li>
+                        <li><a href="#">Bottoms</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Donate</a></li>
+                    </ul>
+                </nav>
+                <section id="footer-contact">
+                    <h3 id="contact-title">Contact Us!</h3>
+                    <form action="email.php" method="POST" enctype="text/plain">
+                        <input name="email" type="text" required placeholder="Email e.g. example@mail.com">
+                        <textarea name="msg" placeholder="Leave Message Here!"></textarea>
+                        <input id="footer-submit" name="submit" type="submit" value="Send">
+                        
+                    </form>
+                </section>
             </div>
-        </div>
+        </footer>
 
     </div><!--end container-->  
 </body>
