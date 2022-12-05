@@ -198,7 +198,7 @@ you work on and the intended audience, we may go as low as 320px */
 	display: block;
 	margin: 20px auto 0 auto;
 	margin-bottom: 40px;
-	
+	border-radius: 40px;
 	
 
 }
@@ -367,7 +367,7 @@ margin-bottom: 10px;
 }
 #hero-gallery-con {
 	background-color: #aaaaaa;
-	background: url("https://via.placeholder.com/428x458");
+	background: url(../images/gallery_mobile/hawaii.jpg);
 	height: 458px;
 }
 
@@ -388,27 +388,52 @@ margin-bottom: 10px;
 }
 
 .dot {
-	background-color: #dddddd;
+	background-color: #EFEFEF;
 	height: 30px;
 	width: 30px;
 	border-radius: 50%;
 	margin: 5px;
+	margin-top: 400px;
   }
 
+#gallery h3 {
+	text-align: center;
+	grid-column: 1/-1;
+	margin-top: 40px;
+	margin-bottom: 30px;
+	color: #DFE3D8;
+	font-size: 40px;
+	letter-spacing: 2px;
+}
 #gallery h2 {
 	text-align: center;
 	grid-column: 1/-1;
 	margin-top: 40px;
-	margin-bottom: 40px;
+	margin-bottom: 30px;
+	font-size: 25px;
+	letter-spacing: 2px;
+}
+.cart {
+	margin-left: 60px;
 }
 
+.gal-img {
+	border-top-right-radius: 40px;
+	border-top-left-radius: 40px;
+}
 .gallery-box {
 	grid-column: 1/-1;
-	background-color: #ddd;
+	background-color: #EFEFEF;
 	/* Remove as content will dictate height */
 	height: 507px;
 	margin-bottom: 20px;
-	background-color: #EFEFEF;
+	color: #50412f;
+	border-radius: 40px;
+	
+}
+
+.gallery-box p {
+	padding-left: 135px;
 	
 }
 
