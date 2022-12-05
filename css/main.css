@@ -180,6 +180,7 @@ you work on and the intended audience */
 #hero {
 	margin-top: 100px;
 	padding-bottom: 10px;
+	margin-left: 50px;
 	
 }
 
@@ -516,6 +517,7 @@ you work on and the intended audience */
 	/* Remove as content will dictate height */
 	height: 200px;
 	margin-top: 100px;
+	font-size: 25px;
 }
 
 #gallery-controls {
@@ -539,6 +541,11 @@ you work on and the intended audience */
 	text-align: center;
   }
 
+.cart {
+	padding-left: 250px;
+	margin-top: -80px;
+}
+
 .gallery-box {
 	background-color: #EFEFEF;
 	grid-column: span 4 / span 4;
@@ -546,4 +553,11 @@ you work on and the intended audience */
 	height: 507px;
 	margin-bottom: 20px;
 	border-radius: 40px;
+	color: #50412f;
+	font-size: 25px;
+}
+
+.gallery-box p {
+	padding-top: 70px;
+	padding-left: 50px;
 }
