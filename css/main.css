@@ -500,10 +500,9 @@ you work on and the intended audience */
 	opacity: 70%;
 }
 #gallery-hero-con h2 {
-	font-size: 85px;
-	color:#ffffff;
-	background-color: #7B8D7D;
-	margin-right:-500px ;
+	font-size: 100px;
+	color:#000000;
+	
 }
 
 #new-title {
