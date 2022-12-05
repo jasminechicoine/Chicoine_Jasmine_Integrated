@@ -484,6 +484,7 @@ you work on and the intended audience */
 	position: relative;
 	bottom: 1.2em;
 	width: 450px;
+	font-family: american typewriter;
 }
 
 /* gallery page */
@@ -499,6 +500,9 @@ you work on and the intended audience */
 
 #new-title {
 	font-size: 50px;
+	font-family: american typewriter;
+	letter-spacing: 3px;
+	color: #DFE3D8;
 }
 #gallery-text {
 	grid-column: 1/9;
