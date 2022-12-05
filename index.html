@@ -19,7 +19,7 @@
                     <h2 class="hidden">Main Navigation</h2>
                     <ul>
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="#">New Arrivals</a></li>
+                        <li><a href="gallery.html">New Arrivals</a></li>
                         <li><a href="#">Hats</a></li>
                         <li><a href="#">Sweaters</a></li>
                         <li><a href="#">Shirts</a></li>
@@ -100,7 +100,7 @@
                         <input name="fullName" type="text" placeholder="Last Name">
                         <input name="contactInfo" type="text" required placeholder="Email e.g. example@mail.com">
                         <input name="contactInfo" type="text" required placeholder="phone # e.g. (111-222-3333)">
-                        <textarea name="msg" placeholder="Enter your questions, comments or concerns here..."></textarea>
+                        <textarea name="msg" placeholder="Leave a Comment!"></textarea>
                         <input name="submit" type="submit" value="Sign Up">
                     </form>
                 
@@ -108,20 +108,33 @@
           </section>
         </main>
 
-        <div id="footer-con">
+        <footer id="footer-con">
             <div class="grid-con" id="footer">
-                <div id="footer-logo" class="box-color">
-                </div>
-                <div id="footer-nav" class="box-color">
-                </div>
-                <div id="footer-newsletter1" class="box-color">
-                </div>
-                <div id="footer-newsletter2" class="box-color">
-                </div>
-                <div id="footer-social" class="box-color">
-                </div>
+                    <img class="footer-logo" src="images/bcv_logo.png" alt="Black Coffee Vintage Logo" width="145" height="145">
+                <nav id="footer-nav">
+                    <h2 class="hidden">Main Footer Navigation</h2>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="gallery.html">New Arrivals</a></li>
+                        <li><a href="#">Hats</a></li>
+                        <li><a href="#">Sweaters</a></li>
+                        <li><a href="#">Shirts</a></li>
+                        <li><a href="#">Bottoms</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Donate</a></li>
+                    </ul>
+                </nav>
+                <section id="footer-contact">
+                    <h3 id="contact-title">Contact Us!</h3>
+                    <form action="email.php" method="POST" enctype="text/plain">
+                        <input name="email" type="text" required placeholder="Email e.g. example@mail.com">
+                        <textarea name="msg" placeholder="Leave Message Here!"></textarea>
+                        <input id="footer-submit" name="submit" type="submit" value="Send">
+                        
+                    </form>
+                </section>
             </div>
-        </div>
+        </footer>
 
     </div> 
 </body>
