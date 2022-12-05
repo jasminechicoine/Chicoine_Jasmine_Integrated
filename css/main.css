@@ -490,13 +490,20 @@ you work on and the intended audience */
 
 /* gallery page */
 
-#gallery-main {
+.gallery-main {
 	background-color: #535f55;
 }
 #gallery-hero-con {
 	background-color: #aaaaaa;
-	background: url("https://via.placeholder.com/1920x580");
+	background: url("../images/gallery/hawaii.jpg");
 	height: 580px;
+	opacity: 70%;
+}
+#gallery-hero-con h2 {
+	font-size: 85px;
+	color:#ffffff;
+	background-color: #7B8D7D;
+	margin-right:-500px ;
 }
 
 #new-title {
