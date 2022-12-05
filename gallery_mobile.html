@@ -9,16 +9,17 @@
     <!-- students must convert divs to semantic tags -->
 	<div id="container">
         
-        <div id="header-con">
+        <header id="header-con">
             <div id="main-header" class="grid-con">
-                <img src="https://via.placeholder.com/186x80" alt="image" id="header-logo">
+                <img src="images/bcv_logo.png" alt="image" id="header-logo" width="80"
+                height="80">
                  <div id="mobile-nav">
                     <span class="burger"></span>
                     <span class="burger"></span>
                     <span class="burger"></span>
                  </div>
             </div>    
-        </div> 
+        </header>
 
         <main>
             <div id="hero-gallery-con">
@@ -56,16 +57,19 @@
             </div>              
         </main>
 
-        <div id="footer-con">
-            <div class="grid-con">
-                <div id="footer-box">
-                </div>
-                <div id="footer-newsletter">
-                </div>
-                <div id="footer-newsletter2">
-                </div>
+        <footer id="footer-con">
+            <div class="grid-con" id="footer">
+            <img class="footer-logo" src="images/bcv_logo.png" alt="Black Coffee Vintage Logo" width="80" height="80">
+                <section id="footer-contact">
+                    <h3 id="contact-title">Contact Us!</h3>
+                    <form action="email.php" method="POST" enctype="text/plain">
+                        <input name="email" type="text" required placeholder="Email e.g. example@mail.com">
+                        <textarea name="msg" placeholder="Leave Message Here!"></textarea>
+                        <input id="footer-submit" name="submit" type="submit" value="Send">
+                    </form>
+                </section>
             </div>
-        </div>
+        </footer>
     </div> 
 </body>
 </html>
